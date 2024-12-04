@@ -76,7 +76,8 @@ function TaskList() {
   };
 
   return (
-    <div className="task-list">
+    <div className="task-list" style={{ height: "100vh" }}>
+
       <h2>To Do List</h2>
       <div className="add-task">
         <input
@@ -122,7 +123,7 @@ function TaskList() {
                 className="important-btn"
                 onClick={() => handleToggleComplete(index)}
               >
-                {task.completed ? "Undo" : "Complete"}
+                {task.completed ? "Completed" : "Complete"}
               </button>
               <button
                 className="delete-btn"

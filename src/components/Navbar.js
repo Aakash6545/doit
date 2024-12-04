@@ -6,18 +6,21 @@ import "bootstrap-icons/font/bootstrap-icons.css"; // Import Bootstrap icons
 
 function Navbar({ isDarkMode, toggleDarkMode }) {
   return (
-    <header
-      id="header"
-      className={`fixed-top  ${style.headertransparent} ${style.header1}`}
-    >
-      <div className="container d-flex align-items-center justify-content-between">
+    // <header
+    //   id="header"
+    //   className={`fixed-top ${style.headertransparent} ${style.header1}`}
+    //   style={{
+    //     position: "relative",
+    //     marginBottom: "0", 
+    //     paddingBottom: "0", 
+    //   }}
+    // >
+      <div className="container d-flex align-items-center justify-content-between" style={{ paddingBottom: "0",  }}>
         <div className={style.logo}>
           <h1>
             <img src="image.png" alt="nav" />
           </h1>
-          <a href="index.html">
-            <img src="assets/img/logo.png" alt="" className="img-fluid" />
-          </a>
+          
         </div>
 
         <nav id="navbar" className={style.navbar}>
@@ -56,7 +59,7 @@ function Navbar({ isDarkMode, toggleDarkMode }) {
           </ul>
         </nav>
       </div>
-    </header>
+    // </header>
   );
 }
 

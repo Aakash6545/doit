@@ -39,7 +39,7 @@
 
 /* Completed tasks */
 .tasks li.completed {
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
   color: #888;
 }
 

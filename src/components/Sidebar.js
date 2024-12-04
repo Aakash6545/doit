@@ -38,7 +38,8 @@ function Sidebar({ setCurrentView, currentView }) {
   };
 
   return (
-    <div className="sidebar">
+    <div className="sidebar" style={{ height: "100vh" }}>
+
       <div className="profile-section">
         <img
           src={require("../user1.jpeg")}

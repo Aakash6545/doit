@@ -56,7 +56,8 @@ function TaskDetails() {
   };
 
   return (
-    <div className="task-details">
+    <div className="task-details" style={{ height: "100vh" }}>
+
       <ul className="details-options">
         <li onClick={handleAddStep}>Add Step</li>
         <li onClick={handleSetReminder}>Set Reminder</li>
