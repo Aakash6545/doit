@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Task Management Application** is a powerful, user-friendly web application built with **React** and **Redux**. It allows users to efficiently manage their tasks, providing a comprehensive solution for tracking, editing, and organizing personal and professional tasks. This application also features a dark mode option for improved usability in low-light conditions, along with a reminder and due date functionality to help users stay organized and on track.
+The **Task Management Application** is a robust and intuitive web app built with **React** and **Redux**, designed to help users stay organized and manage their tasks effectively. The app provides a seamless experience for tracking, editing, and categorizing personal and professional tasks. It also includes a dark mode for better usability in low-light environments and features like due dates and reminders to help users stay on top of their responsibilities.
 
 ### Table of Contents
 
@@ -17,28 +17,27 @@ The **Task Management Application** is a powerful, user-friendly web application
 
 ## Features
 
-- **User Authentication**: Secure login and registration system using Redux for managing user state.
-- **Task Management**: Users can create, edit, delete, and toggle the completion status of tasks.
-- **Due Dates and Reminders**: Users can set due dates using a calendar popup and reminders for important tasks.
-- **Dark Mode**: A toggle switch allows users to switch between light and dark themes.
-- **Responsive Design**: Optimized for various devices and screen sizes to provide a seamless user experience.
+- **User Authentication**: Secure login and registration using Redux to manage user authentication state.
+- **Task Management**: Create, edit, delete, and toggle the completion status of tasks.
+- **Due Dates and Reminders**: Set due dates via a calendar popup and receive reminders for important tasks.
+- **Dark Mode**: Easily switch between light and dark modes with a toggle button.
+- **Responsive Design**: The application is optimized for various screen sizes and devices, providing an optimal experience across all platforms.
 
 ## Technologies Used
 
 - **Frontend**: 
   - React
   - Redux for state management
-  - Bootstrap for responsive design
-  - react-datepicker for the calendar functionality
-- **Styling**: CSS Modules for modular component styling
-- **Icons**: Bootstrap Icons for consistent and modern iconography
+  - Bootstrap for a responsive layout
+  - react-datepicker for calendar functionality
+- **Styling**: CSS Modules for organized and modular styling
+- **Icons**: Bootstrap Icons for modern and clean icons
 
 ## Installation
 
-To set up the project locally, follow these steps:
+To set up the project on your local machine, follow these steps:
 
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/saksham-koul-2003/Do-It.git
-# doit
+   git clone https://github.com/aakash6545/doit.git
